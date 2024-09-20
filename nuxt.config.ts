@@ -19,6 +19,13 @@ export default defineNuxtConfig({
       apiBase: ''
     }
   },
+  colorMode: {
+    preference: 'dark'
+  },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' }
+  },
 
   modules: ['@nuxt/ui']
 })
