@@ -1,13 +1,10 @@
 <template>
-  <CommonHeader />
-    <slot />
-  <footer>El footer</footer>
+    
+  <div><CommonHeader /><slot /></div>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts" setup></script>
 
-</script>
-
-<style>
-
+<style scoped>
+ 
 </style>
